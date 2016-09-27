@@ -10,11 +10,13 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="practice_n2.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E3713C68-9617-4376-89DD-47F5AF788668}</ProjectGuid>
+    <ProjectGuid>{5345EAC0-DF90-4E8B-AB11-647A5BA44FAA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>sample1</RootNamespace>
-    <ProjectName>chap.1</ProjectName>
+    <RootNamespace>chap37</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,9 +78,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="sample1-1.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
