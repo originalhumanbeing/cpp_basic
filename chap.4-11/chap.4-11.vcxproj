@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{04E3B646-7634-4829-9229-7E0A670B6244}</ProjectGuid>
+    <ProjectGuid>{7C452D3D-14B3-4522-8AD1-E3507BE64113}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>chap4</RootNamespace>
+    <RootNamespace>chap411</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="sample1.cpp" />
+    <ClCompile Include="practice_n1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
